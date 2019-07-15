@@ -1,0 +1,28 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Yifei Li"
+theme = "hugo-ivy"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/About/"
+    weight = 2
+[[menu.main]]
+    name = "Projects"
+    url = "/Projets/"
+    weight = 3
+[[menu.main]]
+    name = "Book List"
+    url = "/BookList/"
+    weight = 4
+[[menu.main]]
+    name = "Blog"
+    url = "/Blog/"
+    weight = 5
+
+[params]
+    footer = "&copy; [Yifei Li](https://localhost:1313/) 2019 | [Github](https://github.com/tudou0002)"
