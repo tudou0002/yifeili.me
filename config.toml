@@ -13,11 +13,11 @@ theme = "hugo-ivy"
     weight = 2
 [[menu.main]]
     name = "Projects"
-    url = "/Projets/"
+    url = "https://github.com/tudou0002/yifeili.me"
     weight = 3
 [[menu.main]]
-    name = "Book List"
-    url = "/BookList/"
+    name = "Coding"
+    url = "/Coding/"
     weight = 4
 [[menu.main]]
     name = "Blog"
