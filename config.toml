@@ -19,10 +19,13 @@ theme = "hugo-ivy"
     name = "Notes"
     url = "/content/notes/"
     weight = 4
+#[[menu.main]]
+#    name = "Blog"
+#   url = "/content/blog/"
+#   weight = 5
 [[menu.main]]
-    name = "Blog"
-    url = "/content/blog/"
+    name = "Resume"
+    url = "/content/resume.pdf"
     weight = 5
-
 [params]
     footer = "&copy; [Yifei Li](https://localhost:1313/) 2019 | [Github](https://github.com/tudou0002)"
