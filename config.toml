@@ -1,7 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "http://yifeili.me"
 languageCode = "en-us"
 title = "Yifei Li"
 theme = "hugo-ivy"
+
+[permalinks]
+notes = "/notes/:title/"
 
 [[menu.main]]
     name = "Home"
@@ -17,7 +20,7 @@ theme = "hugo-ivy"
     weight = 3
 [[menu.main]]
     name = "Notes"
-    url = "/content/notes/"
+    url = "/notes/"
     weight = 4
 #[[menu.main]]
 #    name = "Blog"
