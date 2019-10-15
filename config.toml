@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Yifei Li"
 theme = "hugo-ivy"
 
-[permalinks]
-notes = "/notes/:title/"
 
 [[menu.main]]
     name = "Home"
@@ -22,9 +20,10 @@ notes = "/notes/:title/"
     name = "Notes"
     url = "/notes/"
     weight = 4
-#[[menu.main]]
-#    name = "Blog"
-#   url = "/content/blog/"
-#   weight = 5
+[[menu.main]]
+    name = "Tags"
+   url = "/tags/"
+   weight = 5
+
 [params]
     footer = "&copy; [Yifei Li](https://localhost:1313/) 2019 | [Github](https://github.com/tudou0002)"
