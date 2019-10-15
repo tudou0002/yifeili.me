@@ -1,3 +1,13 @@
+---
+title: 5 Named discrete random variables
+date: '2019-10-14'
+slug: named-random-variables
+tags: 
+  - MATH323
+  - McGill
+author: Yifei Li
+---
+
 # 5 Named discrete random variables
 
 
