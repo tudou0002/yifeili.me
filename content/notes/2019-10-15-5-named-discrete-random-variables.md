@@ -1,13 +1,15 @@
-
 ---
 title: 5 Named discrete random variables
-date: '2019-10-14'
-slug: named-random-variables
+author: Yifei Li
+date: '2019-10-15'
+slug: 5-named-discrete-random-variables
+categories: []
 tags:
   - MATH323
   - McGill
-author: Yifei Li
+draft: yes
 ---
+
 # 5 Named discrete random variables
 
 ## Bernoulli 
