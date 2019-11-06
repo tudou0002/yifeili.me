@@ -2,6 +2,9 @@ baseURL = "http://yifeili.me"
 languageCode = "en-us"
 title = "Yifei Li"
 theme = "hugo-ivy"
+googleAnalytics = ""
+preserveTaxonomyNames = true
+hasCJKLanguage = true
 
 
 [[menu.main]]

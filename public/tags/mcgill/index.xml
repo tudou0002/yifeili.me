@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mcgill on Yifei Li</title>
+    <link>/tags/mcgill/</link>
+    <description>Recent content in mcgill on Yifei Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mcgill/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 Named discrete random variables</title>
+      <link>/notes/5-named-discrete-random-variables/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/5-named-discrete-random-variables/</guid>
+      <description>5 Named discrete random variables Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).
+ notation: $X \sim Ber(p)$ range of $X = {0,1}$ $P(X=x) = p^x(1-p)^{1-x}$ $E(X) = p$ $Var(X) = p(1-p)$  Binomial Let X be the number of success in $n$ independent and identical Bernoulli trials with success probability $p$. The distribution of X is Binomial distribution with parameter n and p.</description>
+    </item>
+    
+  </channel>
+</rss>
