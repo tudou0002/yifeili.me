@@ -10,7 +10,6 @@ tags:
 draft: no
 ---
 
-# 5 Named discrete random variables
 
 ## Bernoulli 
 An event has a Bernoulli r.v. if there are only two possible outcomes -- "success" ($P(X=1) = p$) and "failure" ($P(X=0) = 1-p$).
