@@ -17,7 +17,7 @@
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/notes/5-named-discrete-random-variables/</guid>
-      <description>5 Named discrete random variables Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).
+      <description>Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).
  notation: $X \sim Ber(p)$ range of $X = {0,1}$ $P(X=x) = p^x(1-p)^{1-x}$ $E(X) = p$ $Var(X) = p(1-p)$  Binomial Let X be the number of success in $n$ independent and identical Bernoulli trials with success probability $p$. The distribution of X is Binomial distribution with parameter n and p.</description>
     </item>
     

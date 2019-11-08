@@ -1,7 +1,6 @@
 # Hi there!
 # Welcome to my website!
 
+I am an undergraduate studying computer science at Mcgill University. 
+My interests include data science, visual arts, graphic novels, and watching cooking videos on YouTube. This website is generated with hugo with theme [Ivy](https://github.com/yihui/hugo-ivy). 
 
-- This website is generated with hugo. For a Chinese version instruction, please click [here](https://lyzhang.me/post/make_a_blog_with_hugo/).
-- This hugo theme was ported from [Ivy](https://github.com/yihui/hugo-ivy).
-- For more information about me, you can check About on the right side.
