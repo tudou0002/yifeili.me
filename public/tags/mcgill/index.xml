@@ -18,7 +18,8 @@
       
       <guid>/notes/function-expressions-in-ocaml/</guid>
       <description>Function plays a big role in Ocaml programming. What are the types of functions and how can we define a function in Ocaml?
-Anonymous fucntions function p -&amp;gt; expr function x -&amp;gt; x*x (expr being an expression,nothing fancy) function x -&amp;gt; function y-&amp;gt; x+y (expr can also be a function expression)</description>
+Anonymous functions function p -&amp;gt; expr function x -&amp;gt; x*x (expr being an expression,nothing fancy) function x -&amp;gt; function y-&amp;gt; x+y (expr can also be a function expression)
+Named functions Infix functions Higher Order functions Let&amp;rsquo;s look at an example and think about what type function apply is: let apply = function f -&amp;gt; function x -&amp;gt; f x The answer should be (&#39;a -&amp;gt; &#39;b) -&amp;gt; &#39;a -&amp;gt; &#39;b =&amp;lt;fun&amp;gt;</description>
     </item>
     
     <item>
