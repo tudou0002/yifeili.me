@@ -1,6 +1,5 @@
 # Hi there!
 # Welcome to my website!
 
-I am an undergraduate studying computer science at Mcgill University. 
-My interests include data science, visual arts, graphic novels, and watching cooking videos on YouTube. 
-
+I am currently an undergraduate computer science student at Mcgill University. 
+I love programming, like cooking and enjoy reading (especially graphic novels :)). 
