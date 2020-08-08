@@ -1,32 +1,56 @@
 baseURL = "http://yifeili.me"
 languageCode = "en-us"
 title = "Yifei Li"
-theme = "hugo-ivy"
-googleAnalytics = ""
+theme = "ezhil"
+paginate = 5
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-165392678-1"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
 
+summaryLength = 20
+
+copyright = "© Yifei Li 2020"
+
+[params]
+    subtitle = "A personal blog"
+    mode = "auto"
+    featherIconsCDN = true
 
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-# [[menu.main]]
-#    name = "About"
-#    url = "/about/"
-#    weight = 2
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
 [[menu.main]]
     name = "Projects"
-    url = "https://github.com/tudou0002"
+    url = "/project"
     weight = 3
 [[menu.main]]
     name = "Notes"
-    url = "/notes/"
+    url = "/notes"
     weight = 4
 [[menu.main]]
     name = "Tags"
-   url = "/tags/"
-   weight = 5
+    url = "/tags"
+    weight = 5
+[[menu.main]]
+    name = "随便写写"
+    url = "/posts"
+    weight = 6
 
-[params]
-    footer = "&copy; [Yifei Li](https://localhost:1313/) 2019 | [Github](https://github.com/tudou0002)"
+[[params.social]]
+    name = "Github"
+    icon = "github"
+    url = "https://github.com/tudo0002"
+
+# enable tags
+[taxonomies]
+    tag = "tags"

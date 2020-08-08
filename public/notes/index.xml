@@ -2,34 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Yifei Li</title>
-    <link>/notes/</link>
+    <link>http://yifeili.me/notes/</link>
     <description>Recent content in Notes on Yifei Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>© Yifei Li 2020</copyright>
+    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yifeili.me/notes/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Function Expressions in Ocaml</title>
-      <link>/notes/function-expressions-in-ocaml/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/function-expressions-in-ocaml/</guid>
-      <description>Function plays a big role in Ocaml programming. What are the types of functions and how can we define a function in Ocaml?
-Anonymous functions function p -&amp;gt; expr function x -&amp;gt; x*x (expr being an expression,nothing fancy) function x -&amp;gt; function y-&amp;gt; x+y (expr can also be a function expression)
-Named functions Infix functions Higher Order functions Let&amp;rsquo;s look at an example and think about what type function apply is: let apply = function f -&amp;gt; function x -&amp;gt; f x The answer should be (&#39;a -&amp;gt; &#39;b) -&amp;gt; &#39;a -&amp;gt; &#39;b =&amp;lt;fun&amp;gt;</description>
-    </item>
     
     <item>
       <title>5 Named discrete random variables</title>
-      <link>/notes/5-named-discrete-random-variables/</link>
+      <link>http://yifeili.me/notes/5-named-discrete-random-variables/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/notes/5-named-discrete-random-variables/</guid>
-      <description>Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).
- notation: $X \sim Ber(p)$ range of $X = {0,1}$ $P(X=x) = p^x(1-p)^{1-x}$ $E(X) = p$ $Var(X) = p(1-p)$  Binomial Let X be the number of success in $n$ independent and identical Bernoulli trials with success probability $p$. The distribution of X is Binomial distribution with parameter n and p.</description>
+      <guid>http://yifeili.me/notes/5-named-discrete-random-variables/</guid>
+      <description>Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($ P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).</description>
     </item>
     
   </channel>

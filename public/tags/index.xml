@@ -2,39 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yifei Li</title>
-    <link>/tags/</link>
+    <link>http://yifeili.me/tags/</link>
     <description>Recent content in Tags on Yifei Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>© Yifei Li 2020</copyright>
+    <lastBuildDate>Sun, 03 May 2020 15:26:05 -0400</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yifeili.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ocaml</title>
-      <link>/tags/ocaml/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Book</title>
+      <link>http://yifeili.me/tags/book/</link>
+      <pubDate>Sun, 03 May 2020 15:26:05 -0400</pubDate>
       
-      <guid>/tags/ocaml/</guid>
+      <guid>http://yifeili.me/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>mcgill</title>
-      <link>/tags/mcgill/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mcgill/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math323</title>
-      <link>/tags/math323/</link>
+      <title>Math323</title>
+      <link>http://yifeili.me/tags/math323/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/math323/</guid>
+      <guid>http://yifeili.me/tags/math323/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mcgill</title>
+      <link>http://yifeili.me/tags/mcgill/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://yifeili.me/tags/mcgill/</guid>
       <description></description>
     </item>
     

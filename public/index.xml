@@ -2,43 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yifei Li</title>
-    <link>/</link>
+    <link>http://yifeili.me/</link>
     <description>Recent content on Yifei Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>© Yifei Li 2020</copyright>
+    <lastBuildDate>Sun, 03 May 2020 15:26:05 -0400</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yifeili.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Function Expressions in Ocaml</title>
-      <link>/notes/function-expressions-in-ocaml/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      <title>写码就像</title>
+      <link>http://yifeili.me/posts/clean-code/</link>
+      <pubDate>Sun, 03 May 2020 15:26:05 -0400</pubDate>
       
-      <guid>/notes/function-expressions-in-ocaml/</guid>
-      <description>Function plays a big role in Ocaml programming. What are the types of functions and how can we define a function in Ocaml?
-Anonymous functions function p -&amp;gt; expr function x -&amp;gt; x*x (expr being an expression,nothing fancy) function x -&amp;gt; function y-&amp;gt; x+y (expr can also be a function expression)
-Named functions Infix functions Higher Order functions Let&amp;rsquo;s look at an example and think about what type function apply is: let apply = function f -&amp;gt; function x -&amp;gt; f x The answer should be (&#39;a -&amp;gt; &#39;b) -&amp;gt; &#39;a -&amp;gt; &#39;b =&amp;lt;fun&amp;gt;</description>
+      <guid>http://yifeili.me/posts/clean-code/</guid>
+      <description>&amp;ldquo;Programmers who satisfy themseleves with merely working code are behaving unprofessionally.&amp;rdquo; 2020年第一本打</description>
     </item>
     
     <item>
       <title>5 Named discrete random variables</title>
-      <link>/notes/5-named-discrete-random-variables/</link>
+      <link>http://yifeili.me/notes/5-named-discrete-random-variables/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/notes/5-named-discrete-random-variables/</guid>
-      <description>Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).
- notation: $X \sim Ber(p)$ range of $X = {0,1}$ $P(X=x) = p^x(1-p)^{1-x}$ $E(X) = p$ $Var(X) = p(1-p)$  Binomial Let X be the number of success in $n$ independent and identical Bernoulli trials with success probability $p$. The distribution of X is Binomial distribution with parameter n and p.</description>
+      <guid>http://yifeili.me/notes/5-named-discrete-random-variables/</guid>
+      <description>Bernoulli An event has a Bernoulli r.v. if there are only two possible outcomes &amp;ndash; &amp;ldquo;success&amp;rdquo; ($ P(X=1) = p$) and &amp;ldquo;failure&amp;rdquo; ($P(X=0) = 1-p$).</description>
     </item>
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>http://yifeili.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>I am an undergraduate studying computer science at Mcgill University. My interests include data science, visual arts, graphic novels, and watching cooking videos on YouTube.</description>
+      <guid>http://yifeili.me/about/</guid>
+      <description>Hi there! Welcome to my blog! I&amp;rsquo;m currently a second-year student at McGill University studying Computer Science. I love coding and like to contribute to the open-source community.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://yifeili.me/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://yifeili.me/project/</guid>
+      <description> Lenet5 on CIFAR10 Amazon Product Scraper NewsMap  </description>
     </item>
     
   </channel>

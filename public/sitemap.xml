@@ -3,58 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://yifeili.me/posts/clean-code/</loc>
+    <lastmod>2020-05-03T15:26:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/notes/function-expressions-in-ocaml/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ocaml/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/mcgill/</loc>
-    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/notes/5-named-discrete-random-variables/</loc>
+    <loc>http://yifeili.me/notes/5-named-discrete-random-variables/</loc>
     <lastmod>2019-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/math323/</loc>
+    <loc>http://yifeili.me/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/tags/book/</loc>
+    <lastmod>2020-05-03T15:26:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/tags/math323/</loc>
     <lastmod>2019-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>http://yifeili.me/tags/mcgill/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://yifeili.me/notes/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/posts/</loc>
+    <lastmod>2020-05-03T15:26:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/project/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/tags/</loc>
+    <lastmod>2020-05-03T15:26:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yifeili.me/</loc>
+    <lastmod>2020-05-03T15:26:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   

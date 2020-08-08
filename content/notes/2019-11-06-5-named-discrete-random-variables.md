@@ -12,7 +12,7 @@ draft: no
 
 
 ## Bernoulli 
-An event has a Bernoulli r.v. if there are only two possible outcomes -- "success" ($P(X=1) = p$) and "failure" ($P(X=0) = 1-p$).
+An event has a Bernoulli r.v. if there are only two possible outcomes -- "success" ($ P(X=1) = p$) and "failure" ($P(X=0) = 1-p$).
 
 * notation: $X \sim Ber(p)$
 * range of $X = \{0,1\}$
