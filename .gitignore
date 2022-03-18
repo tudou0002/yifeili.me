@@ -2,4 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-public
+.viminfo
+drafts/*
+start.sh
+public/*
