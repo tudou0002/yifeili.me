@@ -1,5 +1,5 @@
 # yifeili.me
-These are the source code of my static blog built with the static site generator [Hugo](https://gohugo.io/) and deployed on Netlify. 
+These are the source code of my blog built with the [Hugo](https://gohugo.io/) and deployed on Netlify. 
 
 
 # Debug tips

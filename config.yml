@@ -113,7 +113,7 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: tags
+    - identifier: Tags
       name: tags
       url: /tags/
       weight: 20
