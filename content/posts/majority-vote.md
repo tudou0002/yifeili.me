@@ -58,7 +58,7 @@ count:        1, 0, 1, 0, 1, 0, 1
 
 #### Python3 implementation
 ```python3
-def majority_element(A:List[int]): -> int
+def majority_element(A:List[int]) -> int :
     majority = A[0]
     count = 0
 
@@ -95,7 +95,7 @@ The time complexity is still O(n) and space complexity is related to the size of
 
 #### Python3 implementation
 ```python3
-def heavy_hitter(A:List[int], k:int): ->List[int]
+def heavy_hitter(A:List[int], k:int) -> List[int]: 
     buckets = {}
     n = len(A)
 
