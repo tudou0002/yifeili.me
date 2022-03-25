@@ -2,7 +2,7 @@
 title: "Kth Smallest in Two Sorted Arrays"
 date: 2022-03-19T19:58:30-04:00
 draft: true
-tags:  
+tags: ['algorithm'] 
 author: Yifei Li
 showToc: true
 TocOpen: false

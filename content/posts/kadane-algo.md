@@ -2,7 +2,7 @@
 title: "Kadane’s Algorithm"
 date: 2022-03-19T20:13:42-04:00
 draft: true
-tags:  
+tags: ['algorithm']
 author: Yifei Li
 showToc: true
 TocOpen: false
