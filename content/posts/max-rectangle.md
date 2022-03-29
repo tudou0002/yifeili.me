@@ -4,7 +4,7 @@ date: 2022-03-20T10:50:33-04:00
 draft: false
 tags: ['algorithm']
 author: Yifei Li
-showToc: false
+showToc: true
 TocOpen: false
 math: true
 hidemeta: false
@@ -62,7 +62,7 @@ The overall time complexity and space complexity are both O(n).
 
 #### Python3 implementation
 ```python3
-def largestRectangleArea(self, heights: List[int]) -> int:
+def largestRectangleArea(heights: List[int]) -> int:
     s = []
     max_area = 0
     
@@ -91,7 +91,7 @@ In this example, the max rectangle size should be 3. It can be found by the `lar
 
 #### Python3 implementation
 ```python3
-def maximalRectangle(self, matrix: List[List[str]]) -> int:
+def maximalRectangle(matrix: List[List[str]]) -> int:
     heights = [0]*len(matrix[0])
     result = 0
     for row in matrix:
