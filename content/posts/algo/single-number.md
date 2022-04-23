@@ -105,7 +105,7 @@ def single_number(nums: List[int]) -> int:
     return result if result<2**32 else result-2**32
 ```
 
-## Element appears three times except for one  appears twice
+## Element appears three times except for one appears twice
 > Given an integer array, in which each entry but one appears in triplicate, with the remaining element appearing twice, find the element appearing twice. 
 
 #### Explanation

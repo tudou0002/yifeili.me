@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Yifei Li's Blog
-  description: "ExampleSite description"
+  description: "Yifei Li's Blog"
   keywords: [Blog, Portfolio]
   author: Yifei Li
   # author: ["Me", "You"] # multiple authors
@@ -110,14 +110,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
+    - identifier: Posts
       name: Posts
       url: /posts/
       weight: 10
     - identifier: Tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
+    - name: Archive
+      url: archives/
+      weight: 5
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
