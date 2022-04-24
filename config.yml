@@ -110,10 +110,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Posts
-      name: Posts
-      url: /posts/
-      weight: 10
+    # - identifier: Posts
+    #   name: Posts
+    #   url: /posts/
+    #   weight: 10
     - identifier: Tags
       name: Tags
       url: /tags/
@@ -121,6 +121,9 @@ menu:
     - name: Archive
       url: archives/
       weight: 5
+    - name: Search
+      url: search/
+      weight: 10
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
