@@ -1,7 +1,7 @@
 ---
 title: "Monotonic Queue"
 date: 2022-04-22T22:29:10-04:00
-draft: true
+draft: false
 tags:  ['algorithm', 'queue']
 author: Yifei Li
 showToc: true
