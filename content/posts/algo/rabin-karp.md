@@ -2,7 +2,7 @@
 title: "Rabin Karp"
 date: 2022-04-20T22:28:06-04:00
 draft: false
-tags: ['algorithm'] 
+tags: ['algorithm', 'string'] 
 author: Yifei Li
 showToc: true
 TocOpen: false
