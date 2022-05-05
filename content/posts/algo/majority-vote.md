@@ -110,14 +110,14 @@ def heavy_hitter(A:List[int], k:int) -> List[int]:
                     buckets[b] -= 1
         else:
             buckets[a] = 1 + buckets.get(a, 0)
-        % remove all entries where value ==0
+        # remove all entries where value ==0
         buckets = dict((k,v) for k,v in buckets.items() if v>0)
 
-    % reset count in buckets
+    # reset count in buckets
     for b in buckets:
         buckets[b] = 0
 
-    % update actual counts for elements in buckets
+    # update actual counts for elements in buckets
     for a in A:
         if a in buckets:
             buckets[a] += 1
