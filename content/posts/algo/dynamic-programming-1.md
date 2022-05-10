@@ -40,7 +40,7 @@ According to CLRS[1], there are four steps when developing a dynamic programming
 
 ### :cherry_blossom: Runtime analysis
 
-The running time of DP depends on the product of two factors: the number of subproblems overall (space needed for memorization) and how many choices we look at for each subproblem.
+The running time of DP depends on the product of two factors: the number of subproblems overall (sometimes can be the space needed for memorization) and how many choices we look at for each subproblem.
 
 ### :sunflower: Comparison between top-down and bottom-up
 For a dynamic programming algorithm, we can either choose bottom-up strategy or top-down plus memoization strategy. 
@@ -56,4 +56,4 @@ If you don’t want to implementing the memoization structure, use `@functools.l
 
 
 **Reference**  
-[1] Cormen, T. H., Leiserson, C. E., Rivest, R. L., &amp; Stein, C. (2009). Dynamic Programming. In Introduction to algorithms. essay, The MIT Press. 
+[1] Cormen, T. H., Leiserson, C. E., Rivest, R. L., &amp; Stein, C. (2009). Dynamic Programming. In Introduction to algorithms. The MIT Press. 
