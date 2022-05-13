@@ -1,7 +1,7 @@
 ---
 title: "随便写写"
 date: 2022-05-12T21:05:26-04:00
-draft: true
+draft: false
 tags:  ['reading']
 author: Yifei Li
 showToc: true
