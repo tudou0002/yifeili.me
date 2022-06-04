@@ -71,7 +71,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "\U0001F33A	Welcome to my blog \U0001F337 "
+    Title: "Welcome to my blog \U0001F44B"
     Content: Data | Software Dev | Algorithm
 
   socialIcons:
