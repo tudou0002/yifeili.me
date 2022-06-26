@@ -102,13 +102,37 @@ def single_number(nums: List[int]) -> int:
         result += (b%3)
 
     # handle negative case
-    return result if result<2**32 else result-2**32
+    return result if result<2**31 else result-2**32
 ```
 
-## Element appears three times except for one appears twice
-> Given an integer array, in which each entry but one appears in triplicate, with the remaining element appearing twice, find the element appearing twice. 
 
+## Two elements appear twice except for two appear once
+> Given an integer array nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once. You can return the answer in any order.
+You must write an algorithm that runs in linear runtime complexity and uses only constant extra space.
+
+(from leetcode [260](https://leetcode.com/problems/single-number-iii/))
 #### Explanation
-We can apply the same solution to this setting. Aftering computing the bitwise sum, we record the mod 3 result. For each bit position $b$ in the mod result: 
-- if $b$ = 2: target element has 1 at this bit
-- if $b$ = 0: target element has 0 at this bit
+Assume the two elements we want to find is $x$ and $y$.
+- Traverse the entire array, XORing every element to get the value of x^y. Let's say `r = x^y`
+- Since x is not equal to y, they must differ in some bits and results in 1's in r. We find the position `i` of any 1 in r.
+- If we split the entire array into two parts by whether the ith position is 1, we will spilt x and y into two separate parts. We then XOR on either part and get one of results. WLOG, let's assume we've known x by this step. The other result can be computed by y = r^x.
+
+#### Python3 Implementation
+```python3
+def singleNumber(self, nums: List[int]) -> List[int]:
+    xor,idx = 0, 0
+    for num in nums:
+        xor ^= num
+    # find any 1's position in the XOR result
+    for bit in range(32):
+        if xor & (1<<bit):
+            idx = bit
+            break
+    # find one of the results
+    x = 0
+    for num in nums:
+        if num & (1<<idx):
+            x ^= num
+    
+    return [x, x^xor]
+```
