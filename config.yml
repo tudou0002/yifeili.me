@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome to my blog \U0001F44B"
-    Content: Data | Software Dev | Algorithm
+    Content: Algorithm | Data | Reading
 
   socialIcons:
     - name: linkedin
