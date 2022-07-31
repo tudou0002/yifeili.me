@@ -121,9 +121,9 @@ menu:
     - name: Archive
       url: archives/
       weight: 5
-    - name: Search
-      url: search/
-      weight: 10
+    # - name: Search
+    #   url: search/
+    #   weight: 10
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
