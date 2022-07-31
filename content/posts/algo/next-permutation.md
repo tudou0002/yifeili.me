@@ -1,7 +1,7 @@
 ---
 title: "Next Permutation"
 date: 2022-07-31T15:10:51-04:00
-draft: true
+draft: false
 tags:  ['algorithm', 'array']
 author: Yifei Li
 showToc: true
@@ -9,7 +9,7 @@ TocOpen: false
 math: true
 hidemeta: false
 comments: false
-description: "A walkthrough of a single algorithm question"
+description: "A walk-through of a single algorithm question"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
