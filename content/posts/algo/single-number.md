@@ -2,7 +2,7 @@
 title: "Single Number"
 date: 2022-03-24T09:53:57-04:00
 draft: false
-tags:  [algorithm, array]
+tags:  ['algorithm', 'array']
 author: Yifei Li
 showToc: true
 TocOpen: false

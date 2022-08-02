@@ -34,7 +34,7 @@ editPost:
 > A permutation of an array of integers is an arrangement of its members into a sequence or linear order. The next permutation of an array of integers is the next lexicographically greater permutation of its integer. More formally, if all the permutations of the array are sorted in one container according to their lexicographical order, then the next permutation of that array is the permutation that follows it in the sorted container. If such arrangement is not possible, the array must be rearranged as the lowest possible order (i.e., sorted in ascending order). Given an array of integers nums, find the next permutation of nums.
 The replacement must be in place and use only constant extra memory.
 
-(from leetcode [31]())
+(from leetcode [31](https://leetcode.com/problems/next-permutation/))
 
 #### Explanation
 To find the next permutation of a given array, we need to increase the order of the array as little as we can. Notice that the maximum order form of an array is when it is sorted in a non-ascending order. For example, `[4,3,1]` is the maximum order form of the array `[3,1,4]`. According to the question definition, the next permutation of a maximum order form is the lowest possible order (i.e., the next permutation of `[4,3,1]` is `[1,3,4]`). 

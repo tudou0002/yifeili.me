@@ -1,8 +1,8 @@
 ---
 title: "Majority Vote"
 date: 2022-03-18T22:12:35-04:00
-draft: true
-tags: ['algorithm']
+draft: false
+tags: ['algorithm', 'array']
 author: Yifei Li
 showToc: true
 math: true

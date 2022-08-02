@@ -2,7 +2,7 @@
 title: "Morris Traversal"
 date: 2022-07-19T15:28:31-04:00
 draft: false
-tags:  ['algorithm']
+tags:  ['algorithm','binary tree']
 author: Yifei Li
 showToc: true
 TocOpen: false

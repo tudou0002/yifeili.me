@@ -2,7 +2,7 @@
 title: "Divide and Conquer"
 date: 2022-04-28T21:19:46-04:00
 draft: false
-tags:  ['algorithm']
+tags:  ['algorithm', 'divide&conquer']
 author: Yifei Li
 showToc: true
 TocOpen: false
