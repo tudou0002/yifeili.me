@@ -29,7 +29,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-Union-Find algorithm works well in questions related to finding connected components in a graph. Below are several examples:
+Union-Find algorithm works well in questions related to finding connected components in an undirected graph. Below are several examples:
 
 ## Number of Provinces
 > There are n cities. Some of them are connected, while some are not. If city a is connected directly with city b, and city b is connected directly with city c, then city a is connected indirectly with city c.
