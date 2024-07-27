@@ -34,7 +34,7 @@ copyright = "&copy; Copyright 2024, Yifei Li"
   description = "meta description"      # Your meta description of the site
   header_title = "Yifei Li"                 # Your header title
   header_subtitle = "MSCS @ UBC | Vancouver, BC" # Your header subtitle
-  home_image = "/me.jpg"          # Path to header image starting from the static directory (optional)
+  home_image = "/avatar.jpeg"          # Path to header image starting from the static directory (optional)
   recent_posts = 2                           # Max amount of recent posts to show
   mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
