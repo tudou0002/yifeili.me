@@ -31,7 +31,7 @@ copyright = "&copy; Copyright 2025, Yifei Li"
 
 # Configuration Features
 [params]
-  description = "meta description"      # Your meta description of the site
+  description = "Yifei Li's Personal Website"      # Your meta description of the site
   header_title = "Yifei Li"                 # Your header title
   header_subtitle = "MSCS @ UBC | Vancouver, BC" # Your header subtitle
   home_image = "/avatar.jpeg"          # Path to header image starting from the static directory (optional)
