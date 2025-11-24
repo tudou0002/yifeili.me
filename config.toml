@@ -6,28 +6,28 @@ relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
-copyright = "&copy; Copyright 2024, Yifei Li"
+copyright = "&copy; Copyright 2025, Yifei Li"
 
 # Main menu items under content/
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
-    weight = -110
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/post/"  
-    weight = -100
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    title = "Projects"
-    url = "/categories/"
-    weight = -90
+# [menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    title = "About"
+#    url = "/about/"
+#    weight = -110
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    title = "Posts"
+#    url = "/post/"  
+#    weight = -100
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    title = "Projects"
+#    url = "/categories/"
+#    weight = -90
 
 # Configuration Features
 [params]
@@ -52,5 +52,9 @@ copyright = "&copy; Copyright 2024, Yifei Li"
 #    fa_icon = "fab fa-twitter fa-1x"
 #    href = ""
   [[params.social]]
+    fa_icon = "fab fa-google-scholar fa-1x"
+    href = "https://scholar.google.ca/citations?user=01Vu9aoAAAAJ&hl=en"
+  [[params.social]]
     fa_icon = "fas fa-at fa-1x"
-    href = "mailto:yfli@student.ubc.ca"
+    href = "mailto:yfli@cs.ubc.ca"
+  

@@ -1,4 +1,6 @@
 
 
 ### About
-Hello :wave:, I'm Yifei Li. I graduated from McGill University with a degree in Computer Science, where I had the privilege of working with Prof. [Reihaneh Rabbany](http://www.reirab.com/) on a project aimed at combating human trafficking in Canada. I'm now an incoming Master's student at University of British Columbia, supervised by Prof. [Laks V.S. Lakshmanan](https://www.cs.ubc.ca/~laks/). My research interests are in natural language processing and data mining. Previously, I worked at Morgan Stanley as a Site Reliability Engineer.
+Hello 👋 I’m Yifei Li, a Master’s student in Computer Science at the University of British Columbia, where I’m fortunate to be supervised by [Prof. Laks V.S. Lakshmanan](https://www.cs.ubc.ca/~laks/). My research focuses on developing AI systems that can be deployed efficiently and adapt dynamically in real-world environments, making them more accessible and robust.
+
+Before UBC, I studied Computer Science at McGill University and worked with [Prof. Reihaneh Rabbany](https://www.reirab.com/) on building tools to help combat human trafficking in Canada, and I’ve also spent time working at Morgan Stanley.
