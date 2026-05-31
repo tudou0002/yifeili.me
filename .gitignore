@@ -8,3 +8,4 @@ start.sh
 public/*
 *.pptx
 prev/
+.DS_Store

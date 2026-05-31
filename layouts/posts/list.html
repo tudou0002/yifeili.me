@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="pl-sm-4 ml-sm-5">
+    {{ with .Content }}
+        <p class="text-muted mb-4">{{ . | plainify }}</p>
+    {{ end }}
+
+    <div class="mb-4 d-flex justify-content-center">
+        <input
+            id="post-search"
+            type="text"
+            class="form-control"
+            placeholder="Search posts..."
+            oninput="filterPosts(this.value)"
+            style="max-width: 420px; border-radius: 20px; padding-left: 1rem;"
+        />
+    </div>
+
+    {{ range .Pages.GroupByDate "2006" }}
+    <div class="post-year-group" data-year="{{ .Key }}">
+        <h5 class="text-muted mt-4 mb-2" style="font-weight: 600; letter-spacing: 0.03em;">{{ .Key }}</h5>
+        <ul class="list-unstyled">
+        {{ range .Pages }}
+            <li class="post-item mb-1" data-title="{{ .Title | lower }}">
+                <time class="text-muted small mr-2" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "Jan 02" }}
+                </time>
+                <a href="{{ .RelPermalink }}">{{ if .Draft }}DRAFT: {{ end }}{{ .Title }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    <p id="no-results" class="text-muted" style="display:none;">No posts matched your search.</p>
+</div>
+
+<script>
+function filterPosts(query) {
+    const q = query.toLowerCase().trim();
+    const items = document.querySelectorAll('.post-item');
+    const groups = document.querySelectorAll('.post-year-group');
+    let totalVisible = 0;
+
+    groups.forEach(group => {
+        let groupVisible = 0;
+        group.querySelectorAll('.post-item').forEach(item => {
+            const match = !q || item.dataset.title.includes(q);
+            item.style.display = match ? '' : 'none';
+            if (match) groupVisible++;
+        });
+        group.style.display = groupVisible > 0 ? '' : 'none';
+        totalVisible += groupVisible;
+    });
+
+    document.getElementById('no-results').style.display = totalVisible === 0 ? '' : 'none';
+}
+</script>
+{{ end }}
